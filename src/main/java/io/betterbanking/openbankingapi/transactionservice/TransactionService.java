@@ -9,7 +9,7 @@ import java.util.*;
 
 @Service
 public class TransactionService {
-    public List<TransactionInformation> getAllForAccountNumber(String userName) {
+    public List<TransactionInformation> getAllForAccountNumber(String accountNumber) {
         List<TransactionInformation> transactions= new ArrayList<>();
         TransactionInformation t1 = TransactionInformation.builder().accountNumber("01").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.E_BILL_PAYMENT_TRANSACTION).build();
         TransactionInformation t2 = TransactionInformation.builder().accountNumber("02").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.CREDIT_CARD_TRANSACTTION).build();
