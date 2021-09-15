@@ -1,0 +1,35 @@
+
+
+# OBReadProduct2DataOtherProductTypeLoanInterestLoanInterestFeeChargeCap
+
+Details about any caps (minimum/maximum charges) that apply to a particular fee/charge
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**feeType** | [**List&lt;FeeTypeEnum&gt;**](#List&lt;FeeTypeEnum&gt;) |  | 
+**minMaxType** | [**OBMinMaxType1Code**](OBMinMaxType1Code.md) |  | 
+**feeCapOccurrence** | **Integer** | fee/charges are captured dependent on the number of occurrences rather than capped at a particular amount |  [optional]
+**feeCapAmount** | **String** | Cap amount charged for a fee/charge (where it is charged in terms of an amount rather than a rate) |  [optional]
+**cappingPeriod** | [**OBFeeFrequency1Code4**](OBFeeFrequency1Code4.md) |  |  [optional]
+**notes** | **List&lt;String&gt;** |  |  [optional]
+**otherFeeType** | [**List&lt;OBReadProduct2DataOtherProductTypeOverdraftOtherFeeType&gt;**](OBReadProduct2DataOtherProductTypeOverdraftOtherFeeType.md) |  |  [optional]
+
+
+
+## Enum: List&lt;FeeTypeEnum&gt;
+
+Name | Value
+---- | -----
+FEPF | &quot;FEPF&quot;
+FTOT | &quot;FTOT&quot;
+FYAF | &quot;FYAF&quot;
+FYAM | &quot;FYAM&quot;
+FYAQ | &quot;FYAQ&quot;
+FYCP | &quot;FYCP&quot;
+FYDB | &quot;FYDB&quot;
+FYMI | &quot;FYMI&quot;
+FYXX | &quot;FYXX&quot;
+
+
+
