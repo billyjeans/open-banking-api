@@ -589,4 +589,132 @@ public class CreditInterest1TierBand   {
     }
     return o.toString().replace("\n", "\n    ");
   }
+
+    /**
+     * Model tests for CreditInterest1TierBand
+     */
+    public static class CreditInterest1TierBandTest {
+        private final CreditInterest1TierBand model = new CreditInterest1TierBand();
+
+        /**
+         * Model tests for CreditInterest1TierBand
+         */
+        @Test
+        public void testCreditInterest1TierBand() {
+            // TODO: test CreditInterest1TierBand
+        }
+
+        /**
+         * Test the property 'identification'
+         */
+        @Test
+        public void identificationTest() {
+            // TODO: test identification
+        }
+
+        /**
+         * Test the property 'tierValueMinimum'
+         */
+        @Test
+        public void tierValueMinimumTest() {
+            // TODO: test tierValueMinimum
+        }
+
+        /**
+         * Test the property 'tierValueMaximum'
+         */
+        @Test
+        public void tierValueMaximumTest() {
+            // TODO: test tierValueMaximum
+        }
+
+        /**
+         * Test the property 'calculationFrequency'
+         */
+        @Test
+        public void calculationFrequencyTest() {
+            // TODO: test calculationFrequency
+        }
+
+        /**
+         * Test the property 'applicationFrequency'
+         */
+        @Test
+        public void applicationFrequencyTest() {
+            // TODO: test applicationFrequency
+        }
+
+        /**
+         * Test the property 'depositInterestAppliedCoverage'
+         */
+        @Test
+        public void depositInterestAppliedCoverageTest() {
+            // TODO: test depositInterestAppliedCoverage
+        }
+
+        /**
+         * Test the property 'fixedVariableInterestRateType'
+         */
+        @Test
+        public void fixedVariableInterestRateTypeTest() {
+            // TODO: test fixedVariableInterestRateType
+        }
+
+        /**
+         * Test the property 'AER'
+         */
+        @Test
+        public void AERTest() {
+            // TODO: test AER
+        }
+
+        /**
+         * Test the property 'bankInterestRateType'
+         */
+        @Test
+        public void bankInterestRateTypeTest() {
+            // TODO: test bankInterestRateType
+        }
+
+        /**
+         * Test the property 'bankInterestRate'
+         */
+        @Test
+        public void bankInterestRateTest() {
+            // TODO: test bankInterestRate
+        }
+
+        /**
+         * Test the property 'notes'
+         */
+        @Test
+        public void notesTest() {
+            // TODO: test notes
+        }
+
+        /**
+         * Test the property 'otherBankInterestType'
+         */
+        @Test
+        public void otherBankInterestTypeTest() {
+            // TODO: test otherBankInterestType
+        }
+
+        /**
+         * Test the property 'otherApplicationFrequency'
+         */
+        @Test
+        public void otherApplicationFrequencyTest() {
+            // TODO: test otherApplicationFrequency
+        }
+
+        /**
+         * Test the property 'otherCalculationFrequency'
+         */
+        @Test
+        public void otherCalculationFrequencyTest() {
+            // TODO: test otherCalculationFrequency
+        }
+
+    }
 }
