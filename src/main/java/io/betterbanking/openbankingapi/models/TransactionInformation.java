@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import org.springframework.validation.annotation.Validated;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 /**
@@ -19,7 +20,7 @@ import java.util.Date;
 @Validated
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-08-29T18:15:20.803122+02:00[Europe/Berlin]")
 public class TransactionInformation {
-    private Date date;
+    private LocalDate date;
     private String accountNumber;
     private String currency;
     private String merchantNmae;

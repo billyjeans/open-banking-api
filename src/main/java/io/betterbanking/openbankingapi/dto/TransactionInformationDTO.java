@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 
 @Data
@@ -16,7 +16,7 @@ import java.util.Date;
 @EqualsAndHashCode
 @SuperBuilder
 public class TransactionInformationDTO {
-    private Date date;
+    private LocalDate date;
     private String accountNumber;
     private String currency;
     private String merchantName;
