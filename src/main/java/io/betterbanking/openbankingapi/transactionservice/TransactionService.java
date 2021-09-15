@@ -12,10 +12,10 @@ public class TransactionService {
     public List<TransactionInformation> getAllForAccountNumber(String userName) {
         List<TransactionInformation> transactions= new ArrayList<>();
         TransactionInformation t1 = TransactionInformation.builder().accountNumber("01").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.E_BILL_PAYMENT_TRANSACTION).build();
-        TransactionInformation t2 = TransactionInformation.builder().accountNumber("02").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.E_BILL_PAYMENT_TRANSACTION).build();
-        TransactionInformation t3 = TransactionInformation.builder().accountNumber("03").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.E_BILL_PAYMENT_TRANSACTION).build();
+        TransactionInformation t2 = TransactionInformation.builder().accountNumber("02").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.CREDIT_CARD_TRANSACTTION).build();
+        TransactionInformation t3 = TransactionInformation.builder().accountNumber("03").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.WIRE_TRANSFER).build();
         TransactionInformation t4 = TransactionInformation.builder().accountNumber("04").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.E_BILL_PAYMENT_TRANSACTION).build();
-        TransactionInformation t5 = TransactionInformation.builder().accountNumber("05").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.E_BILL_PAYMENT_TRANSACTION).build();
+        TransactionInformation t5 = TransactionInformation.builder().accountNumber("05").date(LocalDate.now()).eTransactionType(TransactionInformation.ETransactionType.CREDIT_CARD_TRANSACTTION).build();
 
         return Arrays.asList(t1,t2,t3,t4,t5);
     }

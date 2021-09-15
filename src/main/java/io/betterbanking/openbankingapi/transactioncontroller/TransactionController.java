@@ -27,14 +27,6 @@ public class TransactionController {
 
     private List<TransactionInformationDTO> mapTransactionsToDTOList(List<TransactionInformation> transactions) {
         List<TransactionInformationDTO> transactionDto = new ArrayList<>();
-        transactions.forEach(transactionInformation ->
-                transactionDto.add(TransactionInformationDTO.builder()
-                        .merchantName(transactionInformation.getMerchantNmae())
-                        .accountNumber(transactionInformation.getAccountNumber())
-                        .ETransactionType(transactionInformation.getETransactionType())
-                        .date(transactionInformation.getDate())
-                        .merchantLogo(transactionInformation.getMerchantLogo())
-                        .build()));
         return transactions.stream().map(transactionInformation -> TransactionInformationDTO.builder()
                 .merchantName(transactionInformation.getMerchantNmae())
                 .accountNumber(transactionInformation.getAccountNumber())
