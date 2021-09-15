@@ -24,7 +24,7 @@ public class TransactionServiceTest {
         List<TransactionInformation> transactionInformationList = transactionService.getAllForAccountNumber("123");
         Assert.isTrue(transactionInformationList.size()==5, "succes");
     }
-
+// checks if context loads properly and bean autowired properly
     @Test
     public void contextLoads() {
        Assertions.assertThat(transactionService).isNotNull();
